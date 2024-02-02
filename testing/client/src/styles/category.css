@@ -1,0 +1,84 @@
+.page_2{
+    width: 100vw;
+    height: auto;
+    background-color: rgb(39, 39, 39);
+    padding-top: 2rem;
+   
+}
+.page_2 h1{
+    color: #f3a815;
+    font-weight: 300;
+    
+}
+.card_category{
+    width: 100%;
+    height: auto;
+}
+.card_box{
+    width:100%;
+    height: auto;
+    margin-top: 2rem;
+}
+.section_image{
+    width: 95%;
+    height: auto;
+    border-radius: 10px;
+}
+.card_button{
+    width: 60%;
+    height: auto;
+    background-color: transparent;
+    color: #f3a815;
+    border: #f3a815 1px solid;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+@media (min-width:768px) {
+    .page_2{
+        width: auto;
+        height: auto;
+    }
+    .card_category{
+        display: flex;
+        width: 100%;
+        height: auto;
+
+    }
+    #men_box{
+        width: 46%;
+        height: auto;
+    }
+    #women_box{
+        width: 54%;
+        height: auto;
+    }
+    .section_image{
+        width: 100%;
+        height: auto;
+    }
+    
+}
+
+
+@media (min-width:1024px) {
+
+.card_category{
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#men_box{
+    width: 46%;
+    height: auto;
+}
+#women_box{
+    width: 53.5%;
+    height: auto;
+    
+}
+}

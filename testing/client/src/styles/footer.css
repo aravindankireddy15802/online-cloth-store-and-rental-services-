@@ -1,0 +1,57 @@
+
+footer{
+    width: 100vw;
+    height: 40vh;
+    background-color: #f3a815;
+    position: relative;
+    overflow: hidden;
+}
+footer div{
+    width: 100%;
+    height: auto;
+    
+}
+.footer_text{
+    font-size: 1rem;
+}
+.gap{
+    margin-top: 1rem;
+}
+hr{
+    position:absolute;
+    width:98%;
+}
+center div i {
+    font-size: 1.6rem;
+
+}
+
+center{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: last baseline;
+    align-items: center;
+}
+.icon_box span{
+  display:inline-flex;
+  gap: 1rem;
+}
+.follow_icons{
+    color: black;
+}
+.navbar-brand{
+    font-size: 1.4rem;
+}
+
+
+@media (min-width:1024px) {
+
+
+.fa-envelope ,.fa-instagram{
+    font-size: 2rem;
+}
+}

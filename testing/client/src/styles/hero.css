@@ -1,0 +1,61 @@
+.home_box{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../assets/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.quote_box{
+    width: 80vw;
+    height: auto;
+    text-align: right;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 30%;
+    left: 5%;
+}
+.highlight{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.quote-1{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+@media (min-width:768px ){
+    .quote_box{
+        top: 10%;
+        right: 20%;
+    }
+    .highlight{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    .quote-1{
+        font-size: 1.9rem;
+        font-weight: 400;
+    }
+}
+@media (min-width:1020px ){
+    .quote_box{
+        top: -10%;
+        right: 20%;
+    }
+   
+}
+@media (min-width:1440px) {
+    .quote_box{
+        top: -18%;
+        right: 1%;
+    }
+    .highlight{
+        font-size: 3rem;
+        font-weight: 800;
+    }
+    .quote-1{
+        font-size: 2.2rem;
+        font-weight: 400;
+    }
+}
