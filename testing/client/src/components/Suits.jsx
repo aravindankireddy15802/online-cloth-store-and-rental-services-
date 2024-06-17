@@ -156,7 +156,7 @@ const ProductTemplate = ({ image, name, price, id, handler }) => {
         </div>
         <div className="d-flex container justify-content-center gap-3 mb-3 mt-0">
           <button className="btn btn-warning w-50 buy"
-           onClick={() => handler({ image, id, name, price, quantity: 1 })}>buy now</button>
+           onClick={() => handler({ image, id, name, price, quantity: 1 })}>rent {Math.round(price*0.15)}/day</button>
           <button
             onClick={() => handler({ image, id, name, price, quantity: 1 })}
             className="btn btn-dark w-50 text-light addToCart"
